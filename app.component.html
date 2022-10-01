@@ -1,0 +1,13 @@
+<mat-toolbar color="whitesmoke">
+  <span><mat-icon>medical_services</mat-icon><b> Medi-24</b></span>
+
+  <div class="spacer"></div>
+  
+  <nav>
+  <a mat-button routerLink="/doctor" routerLinkActive="active">Doctor</a>
+  <a mat-button routerLink="/pharmacy" routerLinkActive="active">Pharmacy</a>
+  <a mat-raised-button style="background-color: #3399FF;" routerLink="/signup" routerLinkActive="active">SignUp</a>
+  </nav>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

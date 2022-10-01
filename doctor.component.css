@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #9933FF;
+    overflow: auto;
+}
+h1{
+    text-align: center;
+}
+.box{
+    position: absolute;
+    transform: translate(10%,10%);
+    width: 1100px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 4px;
+    box-shadow: 0 5px 15px rgba( 0,0,0,0.5);
+    display: flex;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.box:hover{
+    box-shadow: 0 15px 30px rgba( 0,0,0,0.5);
+}
+.box .imgbox{
+    width: 150px;
+
+}
+.box .content{
+    padding-left: 20px;
+    
+}
+.box.content.p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
